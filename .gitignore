@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Build folders
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Firebase service account
+*.json
+
+# Logs
+*.log
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore secrets
+backend/serviceAccountKey.json
